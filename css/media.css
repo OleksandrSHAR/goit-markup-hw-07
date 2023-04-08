@@ -1,0 +1,251 @@
+@media screen and (min-width: 428px) {
+  .baner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/gallery/people-office-mob@1x.jpg);
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--title-text-color);
+    text-align: center;
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .baner-titel {
+    color: var(--body-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+
+    max-width: 320px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 72px;
+  }
+  .madal {
+    width: 392px;
+    height: 586px;
+    background-color: var(--body-color);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+  }
+
+  .benefits {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+
+  .team {
+    background-color: var(--accent-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .customers-list {
+    row-gap: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+  .conteiner {
+    width: 1158px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /*===========================BANER=========================*/
+  .baner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/gallery/peopleoffice.jpg);
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--title-text-color);
+    text-align: center;
+    padding-bottom: 188px;
+    padding-top: 188px;
+  }
+  .baner-titel {
+    color: var(--body-color);
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+    letter-spacing: 0.02em;
+
+    max-width: 496px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+  }
+  /*===========================BENEFITS=================================*/
+  .benefits {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .flex-ben {
+    display: flex;
+
+    gap: 24px;
+  }
+  .benefits-list {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .benefits-item {
+    max-width: 264px;
+  }
+  /*===============================TEAM==================================*/
+  .team-flex {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+  }
+  .team {
+    background-color: var(--accent-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /*====================================CUSTOMERS=========================*/
+  .customers-list {
+    display: flex;
+    width: 1128px;
+    height: 88px;
+    gap: 24px;
+  }
+  .customers-item {
+    width: 168px;
+    height: 88px;
+  }
+  .customers-stail {
+    width: 168px;
+    height: 88px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /**==============================FOOTER=========================**/
+
+  .footer-section {
+    display: flex;
+    margin-left: auto;
+  }
+  .divi {
+    display: flex;
+    bottom: 0;
+  }
+  .footer-form {
+    width: 453px;
+    height: 40px;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 428px) {
+  .team-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 72px;
+  }
+  .benefits-item:nth-child(n + 2) {
+    margin-top: 72px;
+  }
+  .footer-hero {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+  .media {
+    margin: auto;
+  }
+  .media-titel {
+    text-align: center;
+  }
+  .footer-mail-user {
+    width: 398px;
+  }
+  .buttop-mail {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-mail-text {
+    text-align: center;
+  }
+
+  .divi {
+  }
+  .madal {
+    
+   width: 398px;
+    height: 586px;
+    background-color: var(--body-color);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+  }
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1158px) {
+  .pages-nav,
+  .contacs-list {
+    display: none;
+  }
+
+  .benefits-svg {
+    display: none;
+  }
+  .reasons {
+    display: none;
+  }
+}
