@@ -58,6 +58,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mod-menu {
+    display: none;
+  }
+  .svg-menu-open {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -174,6 +180,14 @@
   }
 }
 @media screen and (max-width: 428px) {
+  .conteiner {
+    max-width: 428px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .team-flex {
     display: flex;
     flex-direction: column;
@@ -236,7 +250,16 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .conteiner {
+    max-width: 428px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
 @media screen and (max-width: 1158px) {
   .pages-nav,
   .contacs-list {

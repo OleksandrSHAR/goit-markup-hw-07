@@ -172,6 +172,7 @@ h6 {
   padding-top: 24px;
   padding-left: 40px;
   padding-bottom: 40px;
+  padding-right: 24px;
 }
 
 .close-item-mob {
@@ -185,7 +186,7 @@ h6 {
 }
 .close-menu {
   position: absolute;
-  right: 24px;
+  right: 0px;
   padding: 0;
   width: 24px;
   height: 24px;
@@ -196,7 +197,9 @@ h6 {
   transition: var(--time-transform);
 }
 .wrap-menu {
+  position: relative;
   display: flex;
+  max-width: 428px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -204,6 +207,8 @@ h6 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
 }
 
