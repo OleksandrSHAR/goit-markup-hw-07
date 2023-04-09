@@ -162,7 +162,10 @@ h6 {
   border: none;
   background-color: #ffffff;
 }
-
+.is-open {
+  opacity: 0;
+  pointer-events: none;
+}
 .mod-menu {
   position: fixed;
   background-color: #ffffff;
