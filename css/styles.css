@@ -210,21 +210,23 @@ h6 {
 .nav-site {
   margin-top: 56px;
 }
+
 .nav-mob {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   margin-bottom: 40px;
-
+  color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
-  color: #2e2f42;
 }
 
 .nav-menu-list:not(:last-child) {
   margin-bottom: 40px;
+}
+.osent {
+  color: #404bbf;
 }
 .contacts-menu {
   display: flex;
@@ -252,6 +254,31 @@ h6 {
   height: 24px;
 }
 
+.contacs-mob {
+  margin-bottom: 48px;
+}
+.staile-tel-mob {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.staile-mail-mob {
+  color: #434455;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  margin-top: 40px;
+}
+.mob-mail-col {
+  color: #434455;
+}
 /*--------------------------- Baner -----------------------*/
 .baner {
   background-image: linear-gradient(
