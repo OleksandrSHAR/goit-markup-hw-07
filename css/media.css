@@ -213,16 +213,18 @@
   .buttop-mail {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 16px;
   }
   .footer-mail-text {
     text-align: center;
   }
-
+  .footer-form {
+    width: 398px;
+  }
   .divi {
   }
   .madal {
-    
-   width: 398px;
+    width: 398px;
     height: 586px;
     background-color: var(--body-color);
 
@@ -231,7 +233,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 24px;
-  }
   }
 }
 @media screen and (max-width: 768px) {

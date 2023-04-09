@@ -43,7 +43,35 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.praimary-text {
+  color: var(--praimary-text-color);
+}
+.pointer {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /*---------------------- Navigation -------------------*/
+
 .header-flex {
   display: flex;
   align-items: center;
@@ -127,6 +155,103 @@ body {
 .logo-titel {
   color: var(--title-text-color);
 }
+.mob-open-tape {
+  padding: 0px;
+  width: 32px;
+  height: 22px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.mod-menu {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 24px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.close-item-mob {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close-menu {
+  position: absolute;
+  right: 24px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--footer-text-color);
+  fill: #000;
+  transition: var(--time-transform);
+}
+.wrap-menu {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-site {
+  margin-top: 56px;
+}
+.nav-mob {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 40px;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+}
+
+.nav-menu-list:not(:last-child) {
+  margin-bottom: 40px;
+}
+.contacts-menu {
+  display: flex;
+
+  gap: 56px;
+  margin-bottom: 0;
+}
+
+.contacs-menu-stail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--logo-text-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: var(--time-transform);
+}
+.contacs-menu-stail:is(:hover, :focus) {
+  background-color: var(--color-ocean);
+}
+
+.contacts-menu-item {
+  width: 24px;
+  height: 24px;
+}
+
 /*--------------------------- Baner -----------------------*/
 .baner {
   background-image: linear-gradient(
@@ -620,7 +745,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--praimary-text-color);
+  background-color: var(--logo-text-color);
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -828,30 +953,3 @@ body {
 }
 
 /*-------------------- Component --------------------*/
-
-.section-title {
-  color: var(--title-text-color);
-}
-
-.praimary-text {
-  color: var(--praimary-text-color);
-}
-.pointer {
-  cursor: pointer;
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
