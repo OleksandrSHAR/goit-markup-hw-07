@@ -155,138 +155,7 @@ h6 {
 .logo-titel {
   color: var(--title-text-color);
 }
-.mob-open-tape {
-  padding: 0px;
-  width: 32px;
-  height: 22px;
-  border: none;
-  background-color: #ffffff;
-}
-.is-open {
-  opacity: 0;
-  pointer-events: none;
-}
-.mod-menu {
-  position: fixed;
-  background-color: #ffffff;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding-top: 24px;
-  padding-left: 40px;
-  padding-bottom: 40px;
-  padding-right: 24px;
-}
 
-.close-item-mob {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.close-menu {
-  position: absolute;
-  right: 0px;
-  padding: 0;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border-color: rgba(0, 0, 0, 0.1);
-  background-color: var(--footer-text-color);
-  fill: #000;
-  transition: var(--time-transform);
-}
-.wrap-menu {
-  position: relative;
-  display: flex;
-  max-width: 428px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-}
-
-.nav-site {
-  margin-top: 56px;
-}
-
-.nav-mob {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  margin-bottom: 40px;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.nav-menu-list:not(:last-child) {
-  margin-bottom: 40px;
-}
-.osent {
-  color: #404bbf;
-}
-.contacts-menu {
-  display: flex;
-
-  gap: 56px;
-  margin-bottom: 0;
-}
-
-.contacs-menu-stail {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--logo-text-color);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  transition: var(--time-transform);
-}
-.contacs-menu-stail:is(:hover, :focus) {
-  background-color: var(--color-ocean);
-}
-
-.contacts-menu-item {
-  width: 24px;
-  height: 24px;
-}
-
-.contacs-mob {
-  margin-bottom: 48px;
-}
-.staile-tel-mob {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.staile-mail-mob {
-  color: #434455;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-  letter-spacing: 0.02em;
-  margin-top: 40px;
-}
-.mob-mail-col {
-  color: #434455;
-}
 /*--------------------------- Baner -----------------------*/
 .baner {
   background-image: linear-gradient(
@@ -693,15 +562,10 @@ h6 {
   height: 408px;
   gap: 16px;
 }
-.customers-item {
-  width: 190px;
-  height: 88px;
-}
 .customers-stail {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 190px;
   height: 88px;
   border: 2px solid var(--border-color);
 
@@ -754,10 +618,6 @@ h6 {
   height: 72px;
 }
 
-.media {
-  margin-left: 120px;
-  margin-right: auto;
-}
 .media-titel {
   font-family: Roboto, sans-serif;
   font-style: normal;
