@@ -1,0 +1,412 @@
+@media screen and (min-width: 428px) {
+  .baner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/gallery/people-office-mob@1x.jpg);
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--title-text-color);
+    text-align: center;
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .baner-titel {
+    color: var(--body-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+
+    max-width: 320px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 72px;
+  }
+  .madal {
+    width: 392px;
+    height: 586px;
+    background-color: var(--body-color);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+  }
+
+  .benefits {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+  .benefits-list {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .team {
+    background-color: var(--accent-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .customers-list {
+    row-gap: 72px;
+  }
+  .conteiner {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mob-open-tape {
+    padding: 0px;
+    width: 32px;
+    height: 22px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .mod-menu {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 24px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .is-open {
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .close-item-mob {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .close-menu {
+    position: absolute;
+    right: 0px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--footer-text-color);
+    fill: #000;
+    transition: var(--time-transform);
+  }
+  .wrap-menu {
+    position: relative;
+    display: flex;
+    max-width: 428px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+  .nav-site {
+    margin-top: 56px;
+  }
+
+  .nav-mob {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 40px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .nav-menu-list:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .osent {
+    color: #404bbf;
+  }
+  .contacts-menu {
+    display: flex;
+
+    gap: 56px;
+    margin-bottom: 0;
+  }
+
+  .contacs-menu-stail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--logo-text-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: var(--time-transform);
+  }
+  .contacs-menu-stail:is(:hover, :focus) {
+    background-color: var(--color-ocean);
+  }
+
+  .contacts-menu-item {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contacs-mob {
+    margin-bottom: 48px;
+  }
+  .staile-tel-mob {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}
+
+@media screen and (min-width: 428px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 428px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 428px) and (min-resolution: 192dpi),
+  screen and (min-width: 428px) and (min-resolution: 2dppx) {
+  .baner {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/gallery/people-office-mob@2x.jpg");
+  }
+}
+@media screen and (max-width: 428px) {
+  .baner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/gallery/people-office-mob@1x.jpg);
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--title-text-color);
+    text-align: center;
+    padding-bottom: 112px;
+    padding-top: 112px;
+  }
+  .conteiner {
+    max-width: 428px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits-item:nth-child(n + 2) {
+    margin-top: 72px;
+  }
+  .footer-hero {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .team-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 72px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+  .media {
+    margin: auto;
+  }
+
+  .footer-mail-user {
+    width: 398px;
+  }
+  .buttop-mail {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+  .footer-mail-text {
+    text-align: center;
+  }
+  .footer-form {
+    width: 398px;
+  }
+
+  .madal {
+    width: 398px;
+    height: 586px;
+    background-color: var(--body-color);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+  }
+  .mob-open-tape {
+    padding: 0px;
+    width: 32px;
+    height: 22px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .mod-menu {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 24px;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .is-open {
+    opacity: 1;
+    pointer-events: none;
+  }
+
+  .close-item-mob {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .close-menu {
+    position: absolute;
+    right: 0px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--footer-text-color);
+    fill: #000;
+    transition: var(--time-transform);
+  }
+  .wrap-menu {
+    position: relative;
+    display: flex;
+    max-width: 428px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+  .nav-site {
+    margin-top: 56px;
+  }
+
+  .nav-mob {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 40px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .nav-menu-list:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .osent {
+    color: #404bbf;
+  }
+  .contacts-menu {
+    display: flex;
+
+    gap: 56px;
+    margin-bottom: 0;
+  }
+
+  .contacs-menu-stail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--logo-text-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: var(--time-transform);
+  }
+  .contacs-menu-stail:is(:hover, :focus) {
+    background-color: var(--color-ocean);
+  }
+
+  .contacts-menu-item {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contacs-mob {
+    margin-bottom: 48px;
+  }
+  .staile-tel-mob {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}

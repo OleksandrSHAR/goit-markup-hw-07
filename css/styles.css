@@ -20,9 +20,10 @@ body {
   color: var(--praimary-text-color);
 }
 .conteiner {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: center;
+  align-items: center;
 }
 .conteiner-portfolio {
   width: 1158px;
@@ -157,23 +158,6 @@ h6 {
 }
 
 /*--------------------------- Baner -----------------------*/
-.baner {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/gallery/people-office-mob@1x.jpg);
-  width: 428px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-color: var(--title-text-color);
-  text-align: center;
-  padding-bottom: 112px;
-  padding-top: 112px;
-}
 
 .baner-titel {
   color: var(--body-color);
