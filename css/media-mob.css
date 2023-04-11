@@ -298,6 +298,7 @@
     border: none;
     background-color: #ffffff;
   }
+
   .mod-menu {
     position: fixed;
     background-color: #ffffff;
@@ -315,7 +316,6 @@
     opacity: 1;
     pointer-events: none;
   }
-
   .close-item-mob {
     position: absolute;
     width: 8px;
