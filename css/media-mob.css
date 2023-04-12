@@ -65,7 +65,7 @@
     row-gap: 72px;
   }
   .conteiner {
-    max-width: 428px;
+    width: 428px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -223,7 +223,7 @@
     padding-top: 112px;
   }
   .conteiner {
-    max-width: 428px;
+    width: 428px;
 
     padding-left: 16px;
     padding-right: 16px;

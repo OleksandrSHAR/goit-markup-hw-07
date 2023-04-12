@@ -41,7 +41,7 @@
     display: none;
   }
   .conteiner {
-    max-width: 768px;
+    width: 768px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -102,7 +102,13 @@
   }
 
   .footer-section {
-    width: 552px;
+    width: 568px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+    justify-content: left;
+    align-items: normal;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -132,7 +138,7 @@
   }
 
   .conteiner {
-    max-width: 428px;
+    width: 428px;
 
     padding-left: 16px;
     padding-right: 16px;

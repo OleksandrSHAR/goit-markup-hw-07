@@ -13,13 +13,13 @@
     align-items: center;
   }
   .conteiner {
-    max-width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1158px;
+    align-items: center;
+    justify-items: center;
   }
-
+  body {
+    width: 1440px;
+  }
   /*===========================BANER=========================*/
   .baner {
     background-image: linear-gradient(
@@ -106,7 +106,9 @@
     padding-bottom: 120px;
   }
   /**==============================FOOTER=========================**/
-
+  .footer {
+    width: 1440px;
+  }
   .footer-section {
     display: flex;
     margin-left: auto;
@@ -161,11 +163,5 @@
     line-height: 1.5;
 
     letter-spacing: 0.02em;
-  }
-  .conteiner {
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
